@@ -1,4 +1,9 @@
 body {
+    background-image: url('badge.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(255, 255, 255, 0.3);
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -9,7 +14,7 @@ h1 {
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: circle;
     padding: 0;
 }
 
